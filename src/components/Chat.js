@@ -12,7 +12,7 @@ const Chat = ({text}) =>{
 		firestore.collection('messages').orderBy('createdAt')
 	)
 
-
+	
    const sendMessage = async () => {
 	firestore.collection('messages').add({
     
@@ -23,8 +23,10 @@ const Chat = ({text}) =>{
 	}
 	)
 	setValue('')
+	
    }
 
+   
 
 	return(
 		<Container>
