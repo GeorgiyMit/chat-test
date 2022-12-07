@@ -11,7 +11,7 @@ const [user,setUser]= useState(false)
 
 const status = function(user){
   setUser(user)
-  console.log(user)}
+}
 
 const [text, setText] = useState('')
 const textChange = (text) =>{
