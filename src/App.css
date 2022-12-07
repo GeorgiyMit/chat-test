@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#root{
+	background: linear-gradient(to bottom right, #FFFFFF, #010101);
+	height: 100vh;
+	
+}
+.chat{
+	
+}
+.card_chat{
+	height: 70vh;
+	border-radius: 15px;
+}
+.msg_card_body{
+
+}
+
+.card-header{
+	
+}
+.card-body{
+	overflow-y: auto;
+}
+.card-footer{
+display: flex;
+}
+
+.input-group-append{
+	
+	
+}
+
+.send_btn{
+	
+	margin: 10px 0 10px 5px;
+	border-radius: 10px;
+		padding: 10px;	
+		}
+
+.user_img_msg{
+	height: 40px;
+	width: 40px;
+	border:1.5px solid #000000;
+		
+	}
+
+	.img_cont{
+		position: relative;
+		height: 70px;
+		width: 70px;
+		
+}
+
+.img_cont_msg{
+	height: 40px;
+	width: 40px;
+	
+
+}
+
+.online_icon{
+	position: absolute;
+	height: 15px;
+	width:15px;
+	background-color: #4cd137;
+	border-radius: 50%;
+	bottom: 0.2em;
+	right: 0.4em;
+	border:1.5px solid white;
+}
+
+.user_info span{
+	font-size: 20px;
+	color: rgb(129, 129, 129);
+}
+.user_info p{
+font-size: 10px;
+color: rgba(41, 41, 41, 0.6);
+}
+
+.msg_container{
+	
+	margin-left: 10px;
+	border-radius: 15px;
+	background-color: #bebebe;
+	padding: 10px;
+	position: relative;
+}
+.msg_container_send{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 10px;
+	border-radius: 25px;
+	background-color: #9fedb1;
+	padding: 10px;
+	position: relative;
+	text-align: end;
+	overflow: hidden;
+	
+}
+.user_name{
+	
+	font-size: 20px;
+
+}
+
+.msg_time{
+	position: absolute;
+	left: 0;
+	bottom: -15px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 11px;
+}
+.msg_time_send{
+	position: absolute;
+	right:0;
+	bottom: -15px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 11px;
+}
+
+.msg_wrap{
+	
+word-break: break-all;	
+
+
+}
+
